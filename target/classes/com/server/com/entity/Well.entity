@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<class-mapping>
+	<class name="com.server.com.entity.Well">
+		<id name="wellId" type="java.math.BigDecimal" column="ID"/>
+		<attribute name="name" type="java.lang.String" column="NAME" mandatory="false"/>
+
+		<insert>
+			<sql clause="
+				INSERT INTO WELL (ID, NAME)
+    				VALUES (?, ?)">
+    			<attribute name="wellId"/>
+    			<attribute name="name"/>
+    		</sql>
+		</insert>
+
+		<update>
+			<sql clause="
+				UPDATE WELL
+    				SET	NAME = ?
+           			WHERE ID = ?">
+    			<attribute name="name"/>
+    			<attribute name="wellId"/>
+    		</sql>
+		</update>
+
+		<delete>
+			<sql clause="
+				DELETE FROM WELL
+    				WHERE ID = ?">
+    			<attribute name="wellId"/>
+    		</sql>
+		</delete>
+
+	</class>
+</class-mapping>

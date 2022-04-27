@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<SessionConfig>
+	<!--<properties>
+		<property name="driverClassName" value="org.sqlite.jdbc"/>
+		<property name="connectionString" value="jdbc:sqlite:test.db"/>
+		<property name="user" value=""/>
+		<property name="password" value=""/>
+	</properties>-->
+	<mapping id="SDOSQlite.Well">
+    		<class name="com.server.com.entity.Well"/>
+    		<entity name="com/server/com/entity/Well.entity"/>
+    		<view name="com/server/com/entity/Well.view"/>
+    	</mapping>
+</SessionConfig>

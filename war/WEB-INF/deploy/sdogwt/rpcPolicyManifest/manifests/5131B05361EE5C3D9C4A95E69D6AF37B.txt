@@ -1,0 +1,2 @@
+serviceClass: com.client.InputServices
+path: 4BD11489C6FF0C375E0A0D835482B05D.gwt.rpc

@@ -1,0 +1,34 @@
+<dbinfo>
+<well name="AAA" id="1">
+<equipment name="EQ0" id="1"/>
+<equipment name="EQ1" id="2"/>
+<equipment name="EQ2" id="3"/>
+</well>
+<well name="BBB" id="2">
+<equipment name="EQ3" id="4"/>
+<equipment name="EQ4" id="5"/>
+<equipment name="EQ5" id="6"/>
+</well>
+<well name="CCC" id="3">
+<equipment name="EQ6" id="7"/>
+<equipment name="EQ7" id="8"/>
+<equipment name="EQ8" id="9"/>
+</well>
+<well name="KKK" id="4">
+<equipment name="EQ9" id="10"/>
+<equipment name="EQ10" id="11"/>
+<equipment name="EQ11" id="12"/>
+</well>
+<well name="OOO" id="5">
+<equipment name="EQ12" id="13"/>
+<equipment name="EQ13" id="14"/>
+<equipment name="EQ14" id="15"/>
+<equipment name="EQ15" id="16"/>
+<equipment name="EQ16" id="17"/>
+<equipment name="EQ17" id="18"/>
+<equipment name="EQ18" id="19"/>
+<equipment name="EQ19" id="20"/>
+<equipment name="EQ20" id="21"/>
+<equipment name="EQ21" id="22"/>
+</well>
+</dbinfo>
