@@ -24,6 +24,10 @@
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>
+   <source path='model'/>
+    <source path='view'/>
+    <source path='events'/>
+    <source path='presenter'/>
   <source path='shared'/>
 
   <!-- allow Super Dev Mode -->

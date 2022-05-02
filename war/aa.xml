@@ -1,10 +1,10 @@
 <dbinfo>
-<well name="AAA" id="1">
+<well name="EEE" id="1">
 <equipment name="EQ0" id="1"/>
 <equipment name="EQ1" id="2"/>
 <equipment name="EQ2" id="3"/>
 </well>
-<well name="BBB" id="2">
+<well name="EEEA" id="2">
 <equipment name="EQ3" id="4"/>
 <equipment name="EQ4" id="5"/>
 <equipment name="EQ5" id="6"/>
@@ -30,5 +30,12 @@
 <equipment name="EQ19" id="20"/>
 <equipment name="EQ20" id="21"/>
 <equipment name="EQ21" id="22"/>
+</well>
+<well name="NNN" id="6">
+<equipment name="EQ22" id="23"/>
+<equipment name="EQ23" id="24"/>
+<equipment name="EQ24" id="25"/>
+<equipment name="EQ25" id="26"/>
+<equipment name="EQ26" id="27"/>
 </well>
 </dbinfo>

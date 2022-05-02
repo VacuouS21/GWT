@@ -29,7 +29,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements InputSe
 	@Override
 	public String newEquipment(String nameWell, int countEquipment) {
 		// TODO Auto-generated method stub
-		createFile();
+
 		createNEquipment(nameWell, countEquipment, equipmentService);
 		return "В скважину " +nameWell+" добавлено оборудований:  "+countEquipment;
 	}
@@ -37,7 +37,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements InputSe
 	@Override
 	public String getCountEquipment(String wellName) {
 		// TODO Auto-generated method stub
-		createFile();
+		
 		String names=outputAllInformationAboutWell(wellName, equipmentService);
 		return names;
 	}
